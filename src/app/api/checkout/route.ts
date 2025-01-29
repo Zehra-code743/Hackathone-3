@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+const nodemailer = require('nodemailer');
+
 
 // Define TypeScript interface for cart items
 interface CartItem {
