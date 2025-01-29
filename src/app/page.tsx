@@ -6,6 +6,7 @@ import FeaturedProducts from "../components/featuredproducts";
 import TopCategories from "../components/topcategories";
 import Hero from "../components/hero";
 import ProductGrid from "../components/productgrid";
+import Ship from "@/app/Ship/page"
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <TopCategories />
         <Hero />
         <ProductGrid />
+        <Ship/>
       </div>
     </div>
   );
