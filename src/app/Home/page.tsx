@@ -1,11 +1,11 @@
 "use client";
 
-import BackgroundImage from "../components/backgroundimage";
-import Companies from "../components/companies";
-import FeaturedProducts from "../components/featuredproducts";
-import TopCategories from "../components/topcategories";
-import Hero from "../components/hero";
-import ProductGrid from "../components/productgrid";
+import BackgroundImage from "../../components/backgroundimage";
+import Companies from "../../components/companies";
+import FeaturedProducts from "../../components/featuredproducts";
+import TopCategories from "../../components/topcategories";
+import Hero from "../../components/hero";
+import ProductGrid from "../../components/productgrid";
 
 const Home = () => {
   return (
